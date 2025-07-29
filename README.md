@@ -34,7 +34,7 @@
 
 <div align="center">
   <figure style="display:inline-block; margin: 1em;">
-    <img src="/public/ph5.png" alt="AI Chat Page" width="45%" />
+    <img src="/public/ph5.png" alt="AI Chat Page" width="100%" />
     <figcaption>🤖 AI Chat Page</figcaption>
   </figure>
 </div>
