@@ -11,19 +11,34 @@
 ## 📸 Project Showcase
 
 <div align="center">
-  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="Aura Dashboard" width="45%" />
-  <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Therapy Session" width="45%" />
+  <figure style="display:inline-block; margin: 1em;">
+    <img src="/public/ph1.png" alt="Home Page" width="45%" />
+    <figcaption>🏠 Home Page</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 1em;">
+    <img src="/public/ph2.png" alt="Features" width="45%" />
+    <figcaption>✨ Features</figcaption>
+  </figure>
 </div>
 
 <div align="center">
-  <img src="https://i.imghippo.com/files/RHud5372Iq.png" alt="Progress Tracking" width="45%" />
-  <img src="https://i.imghippo.com/files/FBU1874HaE.png" alt="Mental Health Analytics" width="45%" />
+  <figure style="display:inline-block; margin: 1em;">
+    <img src="/public/ph3.png" alt="About Page" width="45%" />
+    <figcaption>📘 About Page</figcaption>
+  </figure>
+  <figure style="display:inline-block; margin: 1em;">
+    <img src="/public/ph4.png" alt="User Dashboard" width="45%" />
+    <figcaption>📊 User Dashboard</figcaption>
+  </figure>
 </div>
 
 <div align="center">
-  <img src="https://i.imghippo.com/files/Su5718PoM.png" alt="AI Interaction" width="45%" />
-  <img src="https://i.imghippo.com/files/Q1022fI.png" alt="Therapeutic Features" width="45%" />
+  <figure style="display:inline-block; margin: 1em;">
+    <img src="/public/ph5.png" alt="AI Chat Page" width="45%" />
+    <figcaption>🤖 AI Chat Page</figcaption>
+  </figure>
 </div>
+
 
 ## 🌟 Key Features
 
