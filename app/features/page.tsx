@@ -92,7 +92,16 @@ const features = [
   },
 ];
 
+// Updated MatrixRain to fix 'window is not defined' error
 const MatrixRain = () => {
+  const [windowHeight, setWindowHeight] = useState(0);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setWindowHeight(window.innerHeight);
+    }
+  }, []);
+
   const characters = Array.from({ length: 50 }, (_, i) => (
     <motion.div
       key={i}
@@ -102,7 +111,7 @@ const MatrixRain = () => {
         top: '-20px',
       }}
       animate={{
-        y: [0, window.innerHeight + 100],
+        y: [0, windowHeight + 100], // now safe to use because windowHeight is set on client side
         opacity: [0, 1, 0],
       }}
       transition={{
@@ -156,7 +165,7 @@ const FeatureCard = ({ feature, index }: { feature: typeof features[0]; index: n
         <motion.div
           className="absolute inset-0 rounded-3xl"
           style={{
-            background: `linear-gradient(135deg, ${feature.color.replace('from-', '').replace(' via-', ', ').replace(' to-', ', ')})`,
+            background: `linear-gradient(135deg, ${feature.color.replace(/from-|via-|to-/g, '')})`,
             padding: '1px',
           }}
           initial={{ opacity: 0 }}
