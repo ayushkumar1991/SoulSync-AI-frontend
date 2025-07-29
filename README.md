@@ -12,22 +12,22 @@
 
 <div align="center">
   <figure style="display:inline-block; margin: 1em;">
-    <img src="/public/ph1.png" alt="Home Page" width="45%" />
+    <img src="/public/ph1.png" alt="Home Page" width="100%" />
     <figcaption>🏠 Home Page</figcaption>
   </figure>
   <figure style="display:inline-block; margin: 1em;">
-    <img src="/public/ph2.png" alt="Features" width="45%" />
+    <img src="/public/ph2.png" alt="Features" width="100%" />
     <figcaption>✨ Features</figcaption>
   </figure>
 </div>
 
 <div align="center">
   <figure style="display:inline-block; margin: 1em;">
-    <img src="/public/ph3.png" alt="About Page" width="45%" />
+    <img src="/public/ph3.png" alt="About Page" width="100%" />
     <figcaption>📘 About Page</figcaption>
   </figure>
   <figure style="display:inline-block; margin: 1em;">
-    <img src="/public/ph4.png" alt="User Dashboard" width="45%" />
+    <img src="/public/ph4.png" alt="User Dashboard" width="100%" />
     <figcaption>📊 User Dashboard</figcaption>
   </figure>
 </div>
