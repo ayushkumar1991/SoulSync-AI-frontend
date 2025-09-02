@@ -42,7 +42,7 @@ export interface ApiResponse {
 
 const API_BASE =
   process.env.BACKEND_API_URL ||
-  "https://ai-therapist-agent-backend.onrender.com";
+  "https://soulsync-ai-1.onrender.com/";
 
 // Helper function to get auth headers
 const getAuthHeaders = () => {

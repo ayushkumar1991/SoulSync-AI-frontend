@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(req: NextRequest) {
   const API_URL =
     process.env.BACKEND_API_URL ||
-    "https://ai-therapist-agent-backend.onrender.com";
+    "https://soulsync-ai-1.onrender.com/";
   const token = req.headers.get("Authorization");
 
   if (!token) {
